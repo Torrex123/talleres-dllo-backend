@@ -15,9 +15,9 @@ function resolvedor(a, b, c, signo){
 
 function mejorParidad(a){
     if(a%2 == 0){
-        return "Par"
+        return true
     }
-    return "Impár"
+    return false
 }
 
 function peorParidad(a){
@@ -80,5 +80,6 @@ console.log(resolvedor(1, 5, 4, "neg"))
 console.log(mejorParidad(10))
 
 console.log(peorParidad(10))
+
 
 
