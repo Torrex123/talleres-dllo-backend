@@ -81,3 +81,4 @@ console.log(mejorParidad(10))
 
 console.log(peorParidad(10))
 
+
